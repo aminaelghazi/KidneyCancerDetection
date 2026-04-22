@@ -29,7 +29,7 @@ from tqdm import tqdm
 
 # Add project root to path
 sys.path.append(str(Path(__file__).parent.parent.parent))
-from src.models.resnet18 import ModifiedResNet18
+from sources.models.resnet18 import ModifiedResNet18
 
 # Set up logging
 def setup_logging(log_dir):
